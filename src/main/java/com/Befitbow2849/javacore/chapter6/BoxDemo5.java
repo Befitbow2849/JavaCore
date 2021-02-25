@@ -20,6 +20,7 @@ class Box5{
 public class BoxDemo5 {
     public static void main(String[] args) {
         double vol;
+        int b = 6;
         Box5 mybox1 = new Box5();
         Box5 mybox2 = new Box5();
         mybox1.setDim(10, 20,15);
@@ -29,5 +30,6 @@ public class BoxDemo5 {
         System.out.println(vol + " объем первого");
         vol = mybox2.volume();
         System.out.println(vol + " объем второго");
+
     }
 }
